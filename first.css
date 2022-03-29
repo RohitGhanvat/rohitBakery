@@ -1,0 +1,110 @@
+#middlediv{
+    height:1400px;
+    width: 100%;
+    
+}
+#filterdiv{
+    height:500px;
+    width:100%;
+    background-image:url(image/cake_decorate.webp);
+    background-repeat:no-repeat;
+    background-size: 100% 500px;
+}
+#logo{
+    height:100px;
+    width:100px;
+    background-color: rgb(240 229 229/ 20%);
+    border-radius:60% ;
+    position: absolute;
+    margin-left: 43%;
+    margin-top:2%;
+    
+}
+#logo>span{
+    margin-left: 27%;
+    margin-top:27%;
+    position: absolute;
+    font-size:40px;
+    color:orange
+}
+#heading{
+    margin-left: 35%;
+    margin-top:10%;
+    position: absolute;
+}
+
+#contentdiv{
+    height: 880px;
+    background-color: rgb(253, 158, 123);
+    width:100%;
+    border: 2px solid rgb(235, 235, 178);
+}
+#contentheading{
+    margin-left: 35%;
+    margin-top:1%;
+    position: absolute;
+    font-size:40px;
+    color:olivedrab;
+    font-family: 'Great Vibes',sans-serif;
+    font-weight:bold;
+}
+#block{
+    height:800px;
+    width:98%%;
+    margin-top:70px;
+    margin-left:1%
+    
+}
+.contentblock{
+    height: 350px;
+    width:25%;
+    float:left;
+    margin-top:20px;
+    margin-left:5%;
+    background-color:rgb(201, 201, 250);
+    box-shadow: 15px 20px 10px gray ;
+    animation: dance 10s infinite;
+}
+@keyframes dance {
+    0%{transform:rotate(-5deg)}
+    25%{transform:rotate(0deg)}
+    0%{transform:rotate(5deg)}
+    0%{transform:rotate(0deg)}
+    0%{transform:rotate(-5deg)}
+}
+.contentblock > img{
+    height:220;
+    width:100%;
+}
+#blockheading{
+    color:rgb(241, 179, 64);
+    font-size: 30px;
+    font-family: 'Great Vibes',sans-serif;
+    text-align: center;
+    margin-top:2%
+}
+.contentblock > p{
+    color:gray;
+    font-size: 20px;
+    font-family: 'Great Vibes',sans-serif;
+    text-align: center;
+}
+#footerdiv{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(247, 155, 155);
+}
+#foottext{
+    font-size :20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-weight:bold
+}
+#mediaicon{
+    text-align: center
+}
+.slogo{
+    height:30px;
+    width:30px;
+    margin-left:1%
+}
